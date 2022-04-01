@@ -1,0 +1,29 @@
+use employee_trackerDB;
+
+INSERT INTO department
+    (name)
+VALUES
+    ('Accounting'),
+    ('Engineering'),
+    ('Sales'),
+    ('Administration');
+
+INSERT INTO role
+    (title, salary, department_id)
+VALUES
+    ('Controller', 85450, 1),
+    ('Accounting clerk', 42659, 1),
+    ('Technician', 62225, 2),
+    ('Software Engineer', 120000, 2),
+    ('Account Manager', 105118, 3),
+    ('Inside Sales', 60725, 3),
+    ('Personal Assistant', 48332, 4),
+    ('Human Resources', 70000, 4);
+
+INSERT INTO employee
+    (first_name, last_name, role_id, manager_id)
+VALUES
+    ('John', 'Smith', 5, NULL),
+    ('Amy', 'Pond', 6, 5),
+    ('Clara', 'Oswald', 7, NULL),
+    ('Jack', 'Harkness', 8, 7);
