@@ -1,4 +1,4 @@
-const mysql = require("mysql");
+const mysql = require("mysql2");
 require("dotenv").config();
 const util = require("util");
 
@@ -8,7 +8,7 @@ const dbUser = process.env.DB_USER;
 
 const connection = mysql.createConnection({
   host: "localhost",
-  port: 8080,
+  port: 3306,
   user: dbUser,
   password: dbPassword,
   database: dbName,

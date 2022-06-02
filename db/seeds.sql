@@ -8,7 +8,7 @@ VALUES
     ('Sales'),
     ('Administration');
 
-INSERT INTO role
+INSERT INTO roles
     (title, salary, department_id)
 VALUES
     ('Controller', 85450, 1),
@@ -21,9 +21,9 @@ VALUES
     ('Human Resources', 70000, 4);
 
 INSERT INTO employee
-    (first_name, last_name, role_id, manager_id)
+    (first_name, last_name, role_id)
 VALUES
-    ('John', 'Smith', 5, NULL),
-    ('Amy', 'Pond', 6, 5),
-    ('Clara', 'Oswald', 7, NULL),
-    ('Jack', 'Harkness', 8, 7);
+    ('John', 'Smith', 5),
+    ('Amy', 'Pond', 6),
+    ('Clara', 'Oswald', 7),
+    ('Jack', 'Harkness', 8);
