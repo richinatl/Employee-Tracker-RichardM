@@ -8,7 +8,7 @@ VALUES
     ('Sales'),
     ('Administration');
 
-INSERT INTO roles
+INSERT INTO role
     (title, salary, department_id)
 VALUES
     ('Controller', 85450, 1),

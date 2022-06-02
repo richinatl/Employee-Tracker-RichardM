@@ -11,10 +11,10 @@ CREATE TABLE department (
   PRIMARY KEY (id)
 );
 
-CREATE TABLE roles (
+CREATE TABLE role (
     id INT NOT NULL AUTO_INCREMENT,
   title VARCHAR(30) NULL,
-  salary DECIMAL(10.3) NULL,
+  salary INT NULL,
   department_id INT NULL,
   PRIMARY KEY (id)
 );
@@ -28,4 +28,3 @@ CREATE TABLE employee (
   PRIMARY KEY (id)
 );
 
--- had to change role to roles since it was causing a problem, changed the index reference to simplify
