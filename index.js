@@ -380,7 +380,7 @@ function employeeDelete(employee) {
 }
 
 function init() {
-  console.log("Employee Manager");
+  console.log("\x1b[106mWelcome to Employee Manager! \x1b[0m");
   appPrompt();
 }
 
