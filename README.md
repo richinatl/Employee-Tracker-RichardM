@@ -17,6 +17,15 @@
 
 A mysql tool to keep track of employees and expenses
 
+![EmployeeTracker1](https://user-images.githubusercontent.com/95508564/171775616-c5315132-dc2f-49fa-93ab-5fa9fedd5a79.png)
+##### The app on start up
+
+![EmployeeTracker2](https://user-images.githubusercontent.com/95508564/171775673-cb919433-5f00-4e04-9ad2-af17625e8bf4.png)
+#### The app in use
+
+
+
+
 ## Installation
 
 npm i
