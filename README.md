@@ -15,7 +15,7 @@
 
 ## Description
 
-A mysql tool to keep track of employees and expenses
+A mysql and node.js tool to keep track of employees and salaries
 
 ![EmployeeTracker1](https://user-images.githubusercontent.com/95508564/171775616-c5315132-dc2f-49fa-93ab-5fa9fedd5a79.png)
 ##### The app on start up
