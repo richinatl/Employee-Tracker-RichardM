@@ -32,7 +32,7 @@ npm i
 
 <br>
 
-- Update 12/19/22 As I was speaking to a cohort about this project it occured to me the instructions were very incomplete. You would also need to have mySql installed on your local machine and would need to create a .env file with the information for variables needed for the project in the config file. Then from the mySql shell, after logging in on the terminal, you need to run source db/schema.sql to create the database, and seeds as well if you want to load the tables with sample data, although seeding wouldn't be necessary to run the application. 
+- Update 12/19/22-  As I was speaking to a cohort about this project it occured to me the instructions were very incomplete. You would also need to have mySql installed on your local machine and would need to create a .env file with the information for variables needed for the project in the config file. Then from the mySql shell, after logging in on the terminal, you need to run source db/schema.sql to create the database, and seeds as well if you want to load the tables with sample data, although seeding wouldn't be necessary to run the application. 
 
 ## Usage
 
